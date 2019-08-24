@@ -6,14 +6,15 @@ import sys
 import random2
 import traceback2
 
+
 from PyQt5.QtCore    import (QTimer, Qt)
 from PyQt5.QtWidgets import (QApplication,  QGraphicsScene,
                              QGraphicsView, QMainWindow, QPushButton)
 
-# Generated gui module
+#  gui module
 from gui import Ui_Field as Ui_MainWindow
 
-# Custom classes and functions
+# classes & functions
 from SnakeClasses   import (BonusQGraphics, SnakepartQGraphics, SquareQGrapics)
 from SnakeFunctions import (add_bonus,    create_bonuses, create_squares,
                             create_snake, print_main,     print_results,
