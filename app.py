@@ -7,6 +7,7 @@ import sys
 from Constants import *
 from Cube import *
 from Snake import *
+from pygame import *
 
 class Window(QWindow):
     def __init__(self):
@@ -28,6 +29,17 @@ def randomSnack(rows, items):
 def message_box(subject,content):
     pass
 def main():
+    s = Snake(RED, (10,10))
+
+    flag = True
+    clock = pygame.time.clock()
+
+    while flag:
+        pygame.time.delay(50)
+        clock.tick(10)
+
+
+
     pass
 
 
