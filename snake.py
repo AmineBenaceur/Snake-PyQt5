@@ -3,8 +3,8 @@
 
 
 import sys
-import random2 as random
-import traceback2 as traceback
+import random2
+import traceback2
 
 from PyQt5.QtCore    import (QTimer, Qt)
 from PyQt5.QtWidgets import (QApplication,  QGraphicsScene,
