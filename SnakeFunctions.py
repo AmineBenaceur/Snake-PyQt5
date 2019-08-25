@@ -66,9 +66,9 @@ def print_results(snake):
     return text
 
 def print_rules():
-    text = ('''<p>Player gains score when snake eats apple.</p>
+    text = ('''<p> Players gain a point for eating an apple .</p>
 
-            <p>When this happens snake aslo grows by one tile.</p>
+            <p> the snake gets one cube bigger / apple eaten.</p>
 
-            <p>Game ends when snake runs in the border or itself.</p>''')
+            <p>Game terminates when snake runs in the border or itself. </p>''')
     return text
